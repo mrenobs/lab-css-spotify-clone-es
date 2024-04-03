@@ -1,8 +1,119 @@
-/*
-Colors:
+*{
+    padding:0;
+    margin: 0;
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+}
+span{
+    position: relative;
+    display: flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.container{
+    background-image: url("/images/landing.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    width: 1298px;
+    position: relative;
+    top: 30px;
+}
+.h1{
+    position: relative;
+    top: 200px;
+    color: white;
+    left: 450px;
+    font-size: 50px;
 
-*/
+}
+.main{
+    padding: 40px;
+}
+.text-img{
+    position: relative;
+    top: 400px;
+    color: white;
+    left: 90px;
+    font-size: 30px;
+}
+.h3{
+    position: relative;
+    left: 500px;
+    top: 10px;
+    font-size: 40px;
+    border-bottom: solid 3px green ;
+}
+
+.Millions{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: green;
+    .text1{
+        color: black;
+    }
+    .text2{
+        color: black;
+    }
+    .text3{
+        color: black;
+    }
+    
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    background-color: rgb(4, 148, 4);
+}
+.footer1{
+    width: 66,6% ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.fotos1{
+    padding: 90px;
+    width: 33,3%;
+}
+.titulo{
+    padding: 10px 0 0 30px ;
+    color: white;
+    font-size: 2em;
+    border-bottom: solid 2px white;
+}
+.search{
+    font-size: 2em;
+}
+.browse{
+    font-size: 2em;
+
+}
+.discover{
+    font-size: 2em;
+
+}
+.section1{
+      color: white;
+      padding: 10px 0 0 30px ;
+}
+.section2{
+    color: white;
+    padding: 10px 0 0 30px ;
+}
+.section3{
+    padding: 0px 0px 30px 30px ;
+    color: white;
+}
+
+.spoti{
+    position: relative;
+    right: 200px;
+    bottom: 200px;
+}
